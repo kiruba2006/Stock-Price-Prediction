@@ -85,6 +85,9 @@ for epoch in range(epochs):
 
 ### True Stock Price, Predicted Stock Price vs time
 
+<img width="807" height="629" alt="image" src="https://github.com/user-attachments/assets/1a197dbb-ba04-4071-b2e9-8108410f23c0" />
+
+
 <img width="1040" height="734" alt="image" src="https://github.com/user-attachments/assets/6e3e9a16-b1a9-4444-bf11-5a408454fb1f" />
 
 
@@ -95,4 +98,4 @@ for epoch in range(epochs):
 
 ## Result
 
-Thus, a Recurrent Neural Network model for stock price prediction has successfully been devoloped.
+The RNN model successfully predicts future stock prices based on historical closing prices. The predicted prices closely follow the actual prices, demonstrating the model's ability to capture temporal patterns. The performance of the model is evaluated by comparing the predicted and actual prices through visual plots.
